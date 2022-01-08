@@ -1,0 +1,17 @@
+{
+  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "kroon_oil",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "kroon_oil (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    }
+  ]
+}
