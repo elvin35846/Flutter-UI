@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'ders_9_evde.dart';
+import 'ders_10_ev.dart';
 
 void main() {
-  runApp(const Ders9Evde());
+  runApp(const Ders10Ev());
 }
