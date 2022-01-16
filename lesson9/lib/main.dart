@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'ders_10_ev.dart';
+import 'lesson_11_home.dart';
 
 void main() {
-  runApp(const Ders10Ev());
+  runApp(
+    const Lesson11Home(),
+  );
 }
