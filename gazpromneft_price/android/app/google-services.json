@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138020771501",
+    "project_id": "gazprom-price",
+    "storage_bucket": "gazprom-price.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138020771501:android:9b90654acb395fabafd824",
+        "android_client_info": {
+          "package_name": "com.example.gazpromneft_price"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138020771501-pauab7a2h8oal7e4e05cur8rcc13jdbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3Q952fS-IvRIlycJouUfoT0SfxDjfa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138020771501-pauab7a2h8oal7e4e05cur8rcc13jdbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
