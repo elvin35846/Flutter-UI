@@ -89,12 +89,58 @@ class _KroonPageState extends State<KroonPage> {
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
                           children: [
-                            priceSearchKroon[index]['image'] != null
-                                ? Image.network(
-                                    priceSearchKroon[index]['image'],
-                                    width: 120,
-                                  )
-                                : Container(),
+                            GestureDetector(
+                              onTap: () {
+                                showDialog(
+                                    context: context,
+                                    builder: (context) {
+                                      return Center(
+                                        child: Material(
+                                          type: MaterialType.transparency,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color: Colors.white,
+                                            ),
+                                            padding: const EdgeInsets.all(15),
+                                            child: priceSearchKroon[index]
+                                                        ['image'] !=
+                                                    ''
+                                                ? Image.network(
+                                                    priceSearchKroon[index]
+                                                        ['image'],
+                                                    height:
+                                                        MediaQuery.of(context)
+                                                                .size
+                                                                .height *
+                                                            0.5)
+                                                : Image(
+                                                    image: const AssetImage(
+                                                        'assets/images/default.jpg'),
+                                                    height:
+                                                        MediaQuery.of(context)
+                                                                .size
+                                                                .height *
+                                                            0.4),
+                                          ),
+                                        ),
+                                      );
+                                    });
+                              },
+                              child: SizedBox(
+                                child: priceSearchKroon[index]['image'] != ''
+                                    ? Image.network(
+                                        priceSearchKroon[index]['image'],
+                                        height: 120,
+                                      )
+                                    : const Image(
+                                        image: AssetImage(
+                                            'assets/images/default.jpg'),
+                                        height: 120,
+                                      ),
+                              ),
+                            ),
                             const SizedBox(width: 10),
                             Expanded(
                               child: Column(
@@ -102,7 +148,16 @@ class _KroonPageState extends State<KroonPage> {
                                 children: [
                                   Text(
                                     priceSearchKroon[index]['name'],
-                                    style: const TextStyle(fontSize: 18),
+                                    style: const TextStyle(
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black54),
+                                  ),
+                                  const SizedBox(height: 5),
+                                  Text(
+                                    priceSearchKroon[index]['type'],
+                                    style: const TextStyle(
+                                        fontSize: 14, color: Colors.grey),
                                   ),
                                   const SizedBox(height: 5),
                                   Column(
@@ -117,7 +172,7 @@ class _KroonPageState extends State<KroonPage> {
                                             item,
                                             style: const TextStyle(
                                                 color: Colors.blue,
-                                                fontSize: 18),
+                                                fontSize: 16),
                                           ),
                                         ),
                                     ],

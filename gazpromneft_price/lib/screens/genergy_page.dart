@@ -89,25 +89,96 @@ class _GenergyPageState extends State<GenergyPage> {
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
                           children: [
+                            GestureDetector(
+                              onTap: () {
+                                showDialog(
+                                    context: context,
+                                    builder: (context) {
+                                      return Center(
+                                        child: Material(
+                                          type: MaterialType.transparency,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color: Colors.white,
+                                            ),
+                                            padding: const EdgeInsets.all(15),
+                                            child: priceSearchGenergy[index]
+                                                        ['image'] !=
+                                                    ''
+                                                ? Image.network(
+                                                    priceSearchGenergy[index]
+                                                        ['image'],
+                                                    height:
+                                                        MediaQuery.of(context)
+                                                                .size
+                                                                .height *
+                                                            0.5)
+                                                : Image(
+                                                    image: const AssetImage(
+                                                        'assets/images/default.jpg'),
+                                                    height:
+                                                        MediaQuery.of(context)
+                                                                .size
+                                                                .height *
+                                                            0.4),
+                                          ),
+                                        ),
+                                      );
+                                    });
+                              },
+                              child: SizedBox(
+                                child: priceSearchGenergy[index]['image'] != ''
+                                    ? Image.network(
+                                        priceSearchGenergy[index]['image'],
+                                        height: 120,
+                                      )
+                                    : const Image(
+                                        image: AssetImage(
+                                            'assets/images/default.jpg'),
+                                        height: 120,
+                                      ),
+                              ),
+                            ),
+                            const SizedBox(width: 10),
                             Expanded(
-                                child: Text(
-                              priceSearchGenergy[index]['name'],
-                              style: const TextStyle(fontSize: 18),
-                            )),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                for (var item in priceSearchGenergy[index]
-                                    ['price'])
-                                  Padding(
-                                    padding: const EdgeInsets.all(2.0),
-                                    child: Text(
-                                      item,
-                                      style: const TextStyle(
-                                          color: Colors.blue, fontSize: 18),
-                                    ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    priceSearchGenergy[index]['name'],
+                                    style: const TextStyle(
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black54),
                                   ),
-                              ],
+                                  const SizedBox(height: 5),
+                                  Text(
+                                    priceSearchGenergy[index]['type'],
+                                    style: const TextStyle(
+                                        fontSize: 14, color: Colors.grey),
+                                  ),
+                                  const SizedBox(height: 5),
+                                  Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      for (var item in priceSearchGenergy[index]
+                                          ['price'])
+                                        Padding(
+                                          padding: const EdgeInsets.all(2.0),
+                                          child: Text(
+                                            item,
+                                            style: const TextStyle(
+                                                color: Colors.blue,
+                                                fontSize: 16),
+                                          ),
+                                        ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
