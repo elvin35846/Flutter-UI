@@ -843,4 +843,40 @@ List barcodeData = [
     'name': 'Super 10w40 205L',
     'code': 211,
   },
+  {
+    'name': 'Diesel Extra 15W40 205L',
+    'code': 212,
+  },
+  {
+    'name': 'Premium L 15W40 1L',
+    'code': 213,
+  },
+  {
+    'name': 'Turbo Universal 15W40 200L',
+    'code': 214,
+  },
+  {
+    'name': 'Turbo Universal 15W40 4L',
+    'code': 215,
+  },
+  {
+    'name': 'Expert G 10W40 1L',
+    'code': 216,
+  },
+  {
+    'name': 'Expert G 10W40 5L',
+    'code': 217,
+  },
+  {
+    'name': 'Expert G 15W40 4L',
+    'code': 218,
+  },
+  {
+    'name': 'FE DX 1 5w30 4L',
+    'code': 219,
+  },
+  {
+    'name': 'PS Fluid 1L',
+    'code': 220,
+  },
 ];

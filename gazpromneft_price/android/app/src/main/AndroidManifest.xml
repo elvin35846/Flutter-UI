@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gazpromneft_price">
    <application
-        android:label="gazpromneft_price"
+        android:label="Autoprofi Price"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

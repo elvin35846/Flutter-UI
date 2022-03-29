@@ -114,7 +114,7 @@ class _KroonPageState extends State<KroonPage> {
                                                         MediaQuery.of(context)
                                                                 .size
                                                                 .height *
-                                                            0.5)
+                                                            0.45)
                                                 : Image(
                                                     image: const AssetImage(
                                                         'assets/images/default.jpg'),

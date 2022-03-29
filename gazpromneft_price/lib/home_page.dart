@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gazpromneft_price/price_data.dart';
+import 'package:gazpromneft_price/screens/comparison_screen.dart';
 import 'package:gazpromneft_price/screens/gazprom_page.dart';
 import 'package:gazpromneft_price/screens/genergy_page.dart';
 import 'package:gazpromneft_price/screens/kroon_page.dart';
@@ -29,15 +31,25 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    newAllData();
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        title: const Text('07.08.2022 Qiymet cedveli'),
+        title: const Text(
+          '07.08.2022 Qiymet cedveli',
+          style: TextStyle(fontSize: 16),
+        ),
         actions: [
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12),
             child: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const ComparisonScreen()),
+                  );
+                },
                 icon: const Icon(
                   Icons.query_stats,
                   size: 32,

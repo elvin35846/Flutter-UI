@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_typeahead: ^3.2.4
   flutter:
     sdk: flutter
 
@@ -59,6 +60,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/images/gazprom/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
