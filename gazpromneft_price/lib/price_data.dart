@@ -12,9 +12,39 @@ newAllData() {
 
 List gazpromPrice = [
   {
+    "name": "Cutfluid Standard",
+    "price": [
+      '20L - 150 azn',
+    ],
+    'type': 'Soyutma mayesi',
+    'image': 'https://iili.io/GmbGgR.png',
+    'characteristic': 'Смазочно-охлаждающая жидкость',
+    'description':
+        'Gazpromneft Cutfluid Standard – высококачественная водосмешиваемая жидкость с высоким содержанием минерального масла и высокоэффективным пакетом присадок, обеспечивающими многофункциональность и стабильность эмульсии. Рекомендуемая концентрация – 3-8% в зависимости от режима обработки конкретного металла',
+    'use':
+        'Для обработки шлифованием, точением, нарезкой, сверлением и фрезерованием всех типов сталей, алюминия, цветных металлов и чугуна.',
+    'test':
+        '- Высокие смазывающие свойства -\n Высокая антикоррозионная защита -\n Экономичность в использовании -\n Легко смешивается с водой -\n Долгий срок службы эмульсии -\n Хорошая стабильность эмульсии -\n Используется для воды широкого диапазона жесткости (100-500 ррм) -\n Продукт безопасен для окружающей среды\nВязкость кинематическая при 40°С, мм2/с - ГОСТ 33 - 31,2\nПлотность при 20°С, кг/м³ - ГОСТ 3900 - 889\nВодородный показатель, 5% эмульсии, рН, в пределах - ГОСТ 6243 п.4 - 9.0',
+  },
+  {
+    "name": "Cutfluid Universal",
+    "price": [
+      '20L - 200 azn',
+    ],
+    'type': 'Soyutma mayesi',
+    'image': 'https://iili.io/Gmbhbt.png',
+    'characteristic': 'Смазочно-охлаждающая жидкость',
+    'description':
+        'Gazpromneft Cutfluid Universal – полусинтетическая водосмешиваемая жидкость широкого спектра применения с содержанием минерального масла. Концентрат обеспечивает многофункциональность и стабильность эмульсии даже при экстремальных режимах обработки металла. Рекомендуемая концентрация – 3-8% в зависимости от режима обработки и обрабатываемого металла. Коэффициент рефракции = 1.2',
+    'use':
+        'Продукт разработан для большинства операций металлообработки: шлифования, точения, резки, сверления и фрезерованием. Рекомендуется для различных черных металлов, включая сталь и чугун, алюминия и его сплавов, цветных металлов.',
+    'test':
+        '- Эффективная антикоррозионная защита -\n Превосходное удаление металлической стружки -\n Высокие охлаждающие свойства -\n Экономичность в использовании -\n Легко смешивается с водой -\n Долгий срок службы эмульсии -\n Отличная стабильность мелкодисперсной структуры эмульсии -\n Подходит для воды широкого диапазона жесткости -\n Продукт безопасен для окружающей среды\nВязкость кинематическая при 40°С, мм2/с - ГОСТ 33 - 44,4\nПлотность при 20°С, кг/м³ - ГОСТ 3900 - 981\nВодородный показатель, 5% эмульсии, рН, в пределах - ГОСТ 6243 п.4 - 9.1',
+  },
+  {
     "name": "PS Fluid",
     "price": [
-      '1L - 4 azn',
+      '1L - 5 azn',
     ],
     'type': 'Sükan mayesi',
     'image': 'https://iili.io/Gkqa6u.png',
@@ -26,8 +56,8 @@ List gazpromPrice = [
   {
     "name": "PREMIUM A3 5W30",
     "price": [
-      '1L - 6 azn',
-      '4L - 22 azn',
+      '1L - 7 azn',
+      '4L - 26 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkqQSf.png',
@@ -39,9 +69,9 @@ List gazpromPrice = [
   {
     "name": "PREMIUM JK 5W30",
     "price": [
-      '1L - 7 azn',
-      '4L - 26 azn',
-      '205L - 950 azn',
+      '1L - 8 azn',
+      '4L - 28 azn',
+      '205L - 1100 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gkqk8v.png',
@@ -53,9 +83,9 @@ List gazpromPrice = [
   {
     "name": "PREMIUM L 5W40",
     "price": [
-      '1L - 6 azn',
-      '4L - 20 azn',
-      '5L - 25 azn',
+      '1L - 7 azn',
+      '4L - 26 azn',
+      '5L - 32 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkBfAQ.png',
@@ -67,10 +97,10 @@ List gazpromPrice = [
   {
     "name": "PREMIUM N 5W40",
     "price": [
-      '1L - 7 azn',
-      '4L - 22 azn',
-      '5L - 29 azn',
-      '205L - 1000 azn',
+      '1L - 8 azn',
+      '4L - 29 azn',
+      '5L - 35 azn',
+      '205L - 1200 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkBuUJ.png',
@@ -82,11 +112,11 @@ List gazpromPrice = [
   {
     "name": "SUPER 10W40",
     "price": [
-      '1L - 4.5 azn',
-      '4L - 16 azn',
-      '5L - 20 azn',
-      '20L - 70 azn',
-      '205L - 700 azn',
+      '1L - 5.5 azn',
+      '4L - 18 azn',
+      '5L - 22 azn',
+      '20L - 85 azn',
+      '205L - 830 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkB7Np.png',
@@ -98,9 +128,10 @@ List gazpromPrice = [
   {
     "name": "SUPER 15W40",
     "price": [
-      '1L - 3.8 azn',
-      '4L - 13 azn',
-      '5L - 17 azn',
+      '1L - 4.5 azn',
+      '4L - 16 azn',
+      '5L - 21 azn',
+      '205L - 830 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkBlVt.png',
@@ -112,10 +143,10 @@ List gazpromPrice = [
   {
     "name": "STANDART 15W40",
     "price": [
-      '1L - 3.8 azn',
-      '4L - 13 azn',
-      '5L - 17 azn',
-      '205L - 650 azn',
+      '1L - 4.5 azn',
+      '4L - 16 azn',
+      '5L - 21 azn',
+      '205L - 750 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkBMUG.png',
@@ -127,10 +158,10 @@ List gazpromPrice = [
   {
     "name": "STANDART 20W50",
     "price": [
-      '1L - 4 azn',
-      '4L - 13 azn',
-      '5L - 17 azn',
-      '205L - 650 azn',
+      '1L - 4.8 azn',
+      '4L - 17 azn',
+      '5L - 21 azn',
+      '205L - 750 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkBZqF.png',
@@ -142,10 +173,10 @@ List gazpromPrice = [
   {
     "name": "Premium L 10W40",
     "price": [
-      '1L - 5 azn',
-      '4L - 18 azn',
-      '5L - 22 azn',
-      '205L - 800 azn',
+      '1L - 6 azn',
+      '4L - 22 azn',
+      '5L - 26 azn',
+      '205L - 950 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCJzN.png',
@@ -157,9 +188,9 @@ List gazpromPrice = [
   {
     "name": "Premium L 15W40",
     "price": [
-      '1L - 5 azn',
-      '4L - 16 azn',
-      '5L - 20 azn',
+      '1L - 5.5 azn',
+      '4L - 18 azn',
+      '5L - 23 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCFqX.png',
@@ -171,10 +202,10 @@ List gazpromPrice = [
   {
     "name": "Disel Premium 10W40",
     "price": [
-      '5L - 25 azn',
-      '20L - 95 azn',
-      '30L - 135 azn',
-      '205L - 850 azn',
+      '5L - 28 azn',
+      '20L - 110 azn',
+      '30L - 155 azn',
+      '205L - 980 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCfgs.png',
@@ -186,9 +217,9 @@ List gazpromPrice = [
   {
     "name": "Disel Premium 15W40",
     "price": [
-      '20L - 90 azn',
-      '30L - 130 azn',
-      '205L - 800 azn',
+      '20L - 105 azn',
+      '30L - 150 azn',
+      '205L - 950 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCR1e.png',
@@ -200,7 +231,7 @@ List gazpromPrice = [
   {
     "name": "Disel Prioritet 10W30",
     "price": [
-      '205L - 750 azn',
+      '205L - 900 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCYdb.png',
@@ -212,7 +243,7 @@ List gazpromPrice = [
   {
     "name": "Diesel Prioritet 10W40",
     "price": [
-      '20L - 85 azn',
+      '20L - 100 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCVB1.png',
@@ -224,10 +255,10 @@ List gazpromPrice = [
   {
     "name": "Diesel Prioritet 15W40",
     "price": [
-      '5L - 22 azn',
-      '20L - 80 azn',
-      '30L - 120 azn',
-      '205L - 770 azn',
+      '5L - 25 azn',
+      '20L - 95 azn',
+      '30L - 138 azn',
+      '205L - 880 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCNkv.png',
@@ -239,10 +270,10 @@ List gazpromPrice = [
   {
     "name": "Diesel Extra 10W40",
     "price": [
-      '1L - 5 azn',
-      '5L - 21 azn',
-      '20L - 80 azn',
-      '205L - 750 azn',
+      '1L - 5.5 azn',
+      '5L - 25 azn',
+      '20L - 95 azn',
+      '205L - 870 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCvhN.png',
@@ -254,11 +285,11 @@ List gazpromPrice = [
   {
     "name": "Diesel Extra 15W40",
     "price": [
-      '1L - 5 azn',
-      '5L - 20 azn',
-      '20L - 75 azn',
-      '30L - 115 azn',
-      '205L - 700 azn',
+      '1L - 5.5 azn',
+      '5L - 24 azn',
+      '20L - 90 azn',
+      '30L - 125 azn',
+      '205L - 800 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCQTl.png',
@@ -270,10 +301,10 @@ List gazpromPrice = [
   {
     "name": "Diesel Extra 20W50",
     "price": [
-      '5L - 20 azn',
-      '20L - 75 azn',
-      '30L - 115 azn',
-      '205L - 700 azn',
+      '5L - 24 azn',
+      '20L - 90 azn',
+      '30L - 125 azn',
+      '205L - 800 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkCtQS.png',
@@ -285,8 +316,8 @@ List gazpromPrice = [
   {
     "name": "Diesel Extra 50",
     "price": [
-      '5L - 21 azn',
-      '30L - 120 azn',
+      '5L - 25 azn',
+      '30L - 140 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gkn93u.png',
@@ -298,12 +329,12 @@ List gazpromPrice = [
   {
     "name": "Turbo Universal 15W40",
     "price": [
-      '4L - 15 azn',
-      '5L - 19 azn',
-      '10L - 38 azn',
-      '20L - 70 azn',
-      '30L - 105 azn',
-      '205L - 650 azn',
+      '4L - 18 azn',
+      '5L - 22 azn',
+      '10L - 44 azn',
+      '20L - 85 azn',
+      '30L - 120 azn',
+      '205L - 750 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gkndyx.png',
@@ -315,8 +346,8 @@ List gazpromPrice = [
   {
     "name": "Diesel Ultra 15W40",
     "price": [
-      '20L - 90 azn',
-      '205L - 850 azn',
+      '20L - 105 azn',
+      '205L - 970 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GknKZB.png',
@@ -328,11 +359,11 @@ List gazpromPrice = [
   {
     "name": "Turbo Universal 20W50",
     "price": [
-      '5L - 19 azn',
-      '10L - 38 azn',
-      '20L - 70 azn',
-      '30L - 105 azn',
-      '205L - 650 azn',
+      '5L - 23 azn',
+      '10L - 45 azn',
+      '20L - 88 azn',
+      '30L - 125 azn',
+      '205L - 770 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GknhnS.png',
@@ -344,12 +375,12 @@ List gazpromPrice = [
   {
     "name": "M-10 DM",
     "price": [
-      '4L - 15 azn',
-      '5L - 18 azn',
-      '10L - 36 azn',
-      '20L - 68 azn',
-      '30L - 100 azn',
-      '205L - 600 azn',
+      '4L - 17 azn',
+      '5L - 21 azn',
+      '10L - 42 azn',
+      '20L - 80 azn',
+      '30L - 115 azn',
+      '205L - 700 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkzOFt.png',
@@ -361,12 +392,12 @@ List gazpromPrice = [
   {
     "name": "M-10Q2K",
     "price": [
-      '4L - 14 azn',
-      '5L - 17 azn',
-      '10L - 36 azn',
-      '20L - 67 azn',
-      '30L - 95 azn',
-      '205L - 600 azn',
+      '4L - 17 azn',
+      '5L - 21 azn',
+      '10L - 40 azn',
+      '20L - 75 azn',
+      '30L - 110 azn',
+      '205L - 700 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/Gkz6V2.png',
@@ -378,13 +409,13 @@ List gazpromPrice = [
   {
     "name": "HD-40",
     "price": [
-      '1L - 4.5 azn',
-      '4L - 15 azn',
-      '5L - 19 azn',
-      '10L - 42 azn',
-      '20L - 65 azn',
-      '30L - 100 azn',
-      '205L - 650 azn',
+      '1L - 5 azn',
+      '4L - 17 azn',
+      '5L - 22 azn',
+      '10L - 43 azn',
+      '20L - 80 azn',
+      '30L - 120 azn',
+      '205L - 750 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkztHu.png',
@@ -396,13 +427,13 @@ List gazpromPrice = [
   {
     "name": "HD-50",
     "price": [
-      '1L - 4 azn',
-      '4L - 15 azn',
-      '5L - 19 azn',
-      '10L - 42 azn',
-      '20L - 65 azn',
-      '30L - 100 azn',
-      '205L - 650 azn',
+      '1L - 5 azn',
+      '4L - 17 azn',
+      '5L - 22 azn',
+      '10L - 44 azn',
+      '20L - 85 azn',
+      '30L - 120 azn',
+      '205L - 750 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkzmDx.png',
@@ -414,9 +445,9 @@ List gazpromPrice = [
   {
     "name": "HD-60",
     "price": [
-      '20L - 68 azn',
-      '30L - 100 azn',
-      '205L - 650 azn',
+      '20L - 88 azn',
+      '30L - 120 azn',
+      '205L - 750 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkIRJn.png',
@@ -428,11 +459,11 @@ List gazpromPrice = [
   {
     "name": "Motor Oil 40",
     "price": [
-      '1L - 3.5 azn',
-      '4L - 12.5 azn',
-      '5L - 16 azn',
-      '20L - 62 azn',
-      '205L - 650 azn',
+      '1L - 4.5 azn',
+      '4L - 16 azn',
+      '5L - 20 azn',
+      '20L - 75 azn',
+      '205L - 720 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkIEfS.png',
@@ -444,11 +475,11 @@ List gazpromPrice = [
   {
     "name": "Motor Oil 50",
     "price": [
-      '1L - 3.5 azn',
-      '4L - 12.5 azn',
-      '5L - 16 azn',
-      '20L - 62 azn',
-      '205L - 650 azn',
+      '1L - 4.5 azn',
+      '4L - 16 azn',
+      '5L - 20 azn',
+      '20L - 75 azn',
+      '205L - 750 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkIesV.png',
@@ -460,11 +491,11 @@ List gazpromPrice = [
   {
     "name": "Motor Oil 60",
     "price": [
-      '1L - 3.5 azn',
-      '4L - 12 azn',
-      '5L - 16 azn',
-      '20L - 62 azn',
-      '205L - 650 azn',
+      '1L - 4.5 azn',
+      '4L - 16 azn',
+      '5L - 20 azn',
+      '20L - 82 azn',
+      '205L - 720 azn',
     ],
     'type': 'Yay mühərrik yağı',
     'image': 'https://iili.io/GkI6mJ.png',
@@ -476,9 +507,9 @@ List gazpromPrice = [
   {
     "name": "I-20 A",
     "price": [
-      '5L - 17 azn',
-      '20L - 62 azn',
-      '205L - 600 azn',
+      '5L - 19 azn',
+      '20L - 70 azn',
+      '205L - 650 azn',
     ],
     'type': 'Sənaye yağı',
     'image': 'https://iili.io/GkIt1I.png',
@@ -490,10 +521,10 @@ List gazpromPrice = [
   {
     "name": "I-40 A",
     "price": [
-      '5L - 17 azn',
-      '10L - 33 azn',
-      '20L - 62 azn',
-      '205L - 600 azn',
+      '5L - 19 azn',
+      '10L - 37 azn',
+      '20L - 70 azn',
+      '205L - 650 azn',
     ],
     'type': 'Sənaye yağı',
     'image': 'https://iili.io/GkImdX.png',
@@ -505,7 +536,7 @@ List gazpromPrice = [
   {
     "name": "I-50 A",
     "price": [
-      '205L - 600 azn',
+      '205L - 650 azn',
     ],
     'type': 'Sənaye yağı',
     'image': 'https://iili.io/GkTgG2.png',
@@ -517,10 +548,10 @@ List gazpromPrice = [
   {
     "name": "SRUS-4",
     "price": [
-      '100qr - 2 azn',
-      '150qr - 2.6 azn',
-      '300qr - 4.8 azn',
-      '400qr - 6 azn',
+      '100qr - 3 azn',
+      '150qr - 4 azn',
+      '300qr - 6.5 azn',
+      '400qr - 9.7 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/GkuT9n.jpg',
@@ -532,16 +563,17 @@ List gazpromPrice = [
   {
     "name": "LITOL-24",
     "price": [
-      '100qr - 0.9 azn',
-      '150qr - 1.3 azn',
-      '300qr - 2.2 azn',
-      '400qr - 3.3 azn',
-      '800qr - 5.4 azn',
-      '4kg - 25 azn',
-      '8kg - 47 azn',
-      '18kg - 95 azn',
-      '45kg - 220 azn',
-      '170kg - 850 azn',
+      '100qr - 2 azn',
+      '150qr - 2.5 azn',
+      '300qr - 4 azn',
+      '350qr - 4.5 azn',
+      '400qr - 6 azn',
+      '800qr - 10 azn',
+      '4kg - 45 azn',
+      '8kg - 88 azn',
+      '18kg - 185 azn',
+      '45kg - 450 azn',
+      '170kg - 1500 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/GkuYMl.png',
@@ -553,9 +585,9 @@ List gazpromPrice = [
   {
     "name": "EP-2",
     "price": [
-      '800qr - 6.7 azn',
-      '18kg - 120 azn',
-      '170kg - 1050 azn',
+      '800qr - 12 azn',
+      '18kg - 195 azn',
+      '170kg - 1850 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/GkujMQ.png',
@@ -567,7 +599,7 @@ List gazpromPrice = [
   {
     "name": "EP-3",
     "price": [
-      '18kg - 120 azn',
+      '18kg - 210 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/Gku4ov.png',
@@ -579,7 +611,7 @@ List gazpromPrice = [
   {
     "name": "GREASE L EP 00",
     "price": [
-      '18kg - 110 azn',
+      '18kg - 130 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/GkuDRn.png',
@@ -591,7 +623,8 @@ List gazpromPrice = [
   {
     "name": "GREASE LX EP-2",
     "price": [
-      '400qr - 5 azn',
+      '400qr - 6 azn',
+      '4kg - 50 azn',
     ],
     'type': 'Sürtkü yağı',
     'image': 'https://iili.io/GkAdf2.png',
@@ -603,7 +636,7 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK-32",
     "price": [
-      '20L - 20 azn',
+      '20L - 78 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkAoWx.png',
@@ -615,9 +648,9 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK MQE-46B",
     "price": [
-      '4L - 14 azn',
-      '20L - 65 azn',
-      '205L - 600 azn',
+      '4L - 16 azn',
+      '20L - 75 azn',
+      '205L - 680 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkA55F.png',
@@ -629,8 +662,8 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK MQE-68",
     "price": [
-      '20L - 65 azn',
-      '205L - 600 azn',
+      '20L - 75 azn',
+      '205L - 680 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkAG0N.png',
@@ -642,7 +675,7 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK HLP-32",
     "price": [
-      '20L - 75 azn',
+      '20L - 80 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkAX5X.png',
@@ -654,9 +687,9 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK HLP-46",
     "price": [
-      '10L - 38 azn',
-      '20L - 65 azn',
-      '205L - 600 azn',
+      '10L - 42 azn',
+      '20L - 80 azn',
+      '205L - 750 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkAvql.png',
@@ -668,8 +701,8 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK HLP-68",
     "price": [
-      '20L - 65 azn',
-      '205L - 600 azn',
+      '20L - 80 azn',
+      '205L - 750 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkAr79.png',
@@ -681,7 +714,7 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK HVLP-46",
     "price": [
-      '205L - 700 azn',
+      '205L - 950 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkRdhJ.png',
@@ -693,7 +726,7 @@ List gazpromPrice = [
   {
     "name": "HIDRAVLIK HVLP-68",
     "price": [
-      '205L - 700 azn',
+      '205L - 950 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkRK1p.png',
@@ -703,9 +736,24 @@ List gazpromPrice = [
     'test': '',
   },
   {
+    "name": "VMQZ (ВМГЗ)",
+    "price": [
+      '205L - 690 azn',
+    ],
+    'type': 'Hidravlika yağı',
+    'image': 'https://iili.io/M4r6L7.png',
+    'characteristic': 'ВМГЗ, ВМГЗ ПАО',
+    'description':
+        'Всесезонные гидравлические масла, производящиеся на высокоочищенной маловязкой основе. Содержат эффективные пакеты присадок, обеспечивающие необходимые вязкостные, антиокислительные, противоизносные, антикоррозионные, низкотемпературные и антипенные свойства. Масло Газпромнефть ВМГЗ ПАО содержит синтетический компонент, что обеспечивает лучшие эксплуатационные характеристики в сравнении с аналогичными маслами других производителей. В процессе работы масла практически исключено падение его вязкости за счет деструкции загущающих присадок. Гарантирует надежную эксплуатацию гидравлических машин в интервале температур от -30°С до +50 °С, в зависимости от типа гидронасоса. Масло Газпромнефть ВМГЗ обеспечивает надежную эксплуатацию гидравлических машин в климатических условиях России (от -25 до +50°С, в зависимости от типа гидронасоса).\nПреимущества\n - Отличные вязкостно-температурные свойства обеспечивают безотказную работу оборудования в широком диапазоне температур\n - Защищают детали гидросистемы от износа и коррозии\n - Высокая окислительная и химическая стабильность обеспечивают длительную работу масел в гидросистеме\n - Отличная фильтруемость',
+    'use':
+        'Для систем гидропривода и гидроуправления строительных, дорожных, лесозаготовительных, подъемнотранспортных и других машин, работающих на открытом воздухе.',
+    'test':
+        'Вязкость кинематическая при 50 °С, мм2 /с - ГОСТ 33 - 14 - 11,5\nВязкость динамическая, мПа·с: при -25 °С, при -30 °С - ASTM D 5293 ASTM D 5293-10 - 1200 - 1749\nТемпература вспышки в открытом тигле, °С - ГОСТ 4333 - 195 - 200\nТемпература застывания, °С - ГОСТ 20287 -46 -48\nКислотное число, мг KOH/г - ГОСТ 11362 - 0,4 - 0,4\nПлотность при 20 °С, кг/м3 - ASTM D 4052 - 865 - 854',
+  },
+  {
     "name": "M-14Г2ЦС",
     "price": [
-      '205L - 650 azn',
+      '205L - 690 azn',
     ],
     'type': 'Gəmi yağı',
     'image': 'https://iili.io/GkRaY7.png',
@@ -717,7 +765,7 @@ List gazpromPrice = [
   {
     "name": "M-16Г2ЦС",
     "price": [
-      '205L - 690 azn',
+      '205L - 800 azn',
     ],
     'type': 'Gəmi yağı',
     'image': 'https://iili.io/GkRaY7.png',
@@ -729,7 +777,7 @@ List gazpromPrice = [
   {
     "name": "М-14 B2",
     "price": [
-      '205L - 600 azn',
+      '205L - 720 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkRaY7.png',
@@ -741,7 +789,7 @@ List gazpromPrice = [
   {
     "name": "Industrial 40",
     "price": [
-      '205L - 600 azn',
+      '205L - 650 azn',
     ],
     'type': 'Sənaye yağı',
     'image': 'https://iili.io/GkRNv1.png',
@@ -753,7 +801,7 @@ List gazpromPrice = [
   {
     "name": "МГД-20 М",
     "price": [
-      '205L - 870 azn',
+      '205L - 950 azn',
     ],
     'type': 'İki taktlı qaz\nmühərriki kompressorları',
     'image': 'https://iili.io/GkRaY7.png',
@@ -765,7 +813,7 @@ List gazpromPrice = [
   {
     "name": "Rubber Оil",
     "price": [
-      '205L - 770 azn',
+      '205L - 870 azn',
     ],
     'type': 'Texniki yağ',
     'image': 'https://iili.io/GkRaY7.png',
@@ -777,7 +825,7 @@ List gazpromPrice = [
   {
     "name": "XA-30",
     "price": [
-      '205L - 900 azn',
+      '180kg - 980 azn',
     ],
     'type': 'Soyuducu yağ',
     'image': 'https://iili.io/GkRaY7.png',
@@ -789,8 +837,8 @@ List gazpromPrice = [
   {
     "name": "Moto 2T",
     "price": [
-      '1L - 4.5 azn',
-      '4L - 15 azn',
+      '1L - 5 azn',
+      '4L - 17 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk7lWb.png',
@@ -802,7 +850,7 @@ List gazpromPrice = [
   {
     "name": "Moto 4T 10W40",
     "price": [
-      '1L - 5.5 azn',
+      '1L - 6 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk7WdB.png',
@@ -814,7 +862,7 @@ List gazpromPrice = [
   {
     "name": "Moto 4T 20W50",
     "price": [
-      '1L - 5 azn',
+      '1L - 6 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk7Sgp.png',
@@ -826,7 +874,7 @@ List gazpromPrice = [
   {
     "name": "SUPER T-2 75W90 GL-4",
     "price": [
-      '1L - 10 azn',
+      '1L - 11 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkYJIe.png',
@@ -838,12 +886,12 @@ List gazpromPrice = [
   {
     "name": "SUPER T-2 80W90 GL-4",
     "price": [
-      '1L - 5 azn',
-      '4L - 18 azn',
-      '5L - 22 azn',
-      '10L - 45 azn',
-      '20L - 85 azn',
-      '205L - 830 azn',
+      '1L - 6 azn',
+      '4L - 21 azn',
+      '5L - 25 azn',
+      '10L - 50 azn',
+      '20L - 95 azn',
+      '205L - 930 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkYcvI.png',
@@ -855,9 +903,9 @@ List gazpromPrice = [
   {
     "name": "SUPER T-2 80W90 GL-5",
     "price": [
-      '1L - 5 azn',
-      '20L - 90 azn',
-      '205L - 850 azn',
+      '1L - 6 azn',
+      '20L - 100 azn',
+      '205L - 950 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkYvje.png',
@@ -869,7 +917,7 @@ List gazpromPrice = [
   {
     "name": "GL-5 140",
     "price": [
-      '1L - 6 azn',
+      '1L - 6.5 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gka29I.png',
@@ -881,8 +929,8 @@ List gazpromPrice = [
   {
     "name": "GL-4 140",
     "price": [
-      '1L - 5.5 azn',
-      '4L - 19 azn',
+      '1L - 6 azn',
+      '4L - 21 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gka7ou.png',
@@ -894,9 +942,9 @@ List gazpromPrice = [
   {
     "name": "GL-5 85W140",
     "price": [
-      '1L - 5.5 azn',
-      '20L - 90 azn',
-      '205L - 820 azn',
+      '1L - 6 azn',
+      '20L - 105 azn',
+      '205L - 930 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gkahog.png',
@@ -908,9 +956,9 @@ List gazpromPrice = [
   {
     "name": "TSp-15 K",
     "price": [
-      '4L - 18 azn',
-      '10L - 42 azn',
-      '205L - 650 azn',
+      '4L - 20 azn',
+      '10L - 50 azn',
+      '205L - 820 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gk8xLb.png',
@@ -922,7 +970,7 @@ List gazpromPrice = [
   {
     "name": "GL-1 90",
     "price": [
-      '20L - 80 azn',
+      '20L - 87 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gk8GEv.png',
@@ -934,8 +982,8 @@ List gazpromPrice = [
   {
     "name": "KS-19p A",
     "price": [
-      '10L - 43 azn',
-      '205L - 690 azn',
+      '10L - 50 azn',
+      '205L - 820 azn',
     ],
     "type": 'Kompressor yağı',
     'image': 'https://iili.io/Gk8XYN.png',
@@ -947,7 +995,7 @@ List gazpromPrice = [
   {
     "name": "Compressor Oil–46 VCL",
     "price": [
-      '20L - 98 azn',
+      '20L - 110 azn',
     ],
     "type": 'Kompressor yağı',
     'image': 'https://iili.io/Gk8eQs.png',
@@ -957,10 +1005,10 @@ List gazpromPrice = [
     'test': '',
   },
   {
-    "name": "Compressor S\nSynth–46 VDL",
+    "name": "Compressor\n S.Synth–46 VDL",
     "price": [
-      '20L - 105 azn',
-      '205L - 650 azn',
+      '20L - 115 azn',
+      '205L - 1050 azn',
     ],
     "type": 'Kompressor yağı',
     'image': 'https://iili.io/Gk8m3Q.png',
@@ -972,9 +1020,9 @@ List gazpromPrice = [
   {
     "name": "ATF DX II",
     "price": [
-      '1L - 5.5 azn',
-      '4L - 21 azn',
-      '20L - 80 azn',
+      '1L - 6 azn',
+      '4L - 23 azn',
+      '20L - 90 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkS9yP.png',
@@ -986,8 +1034,8 @@ List gazpromPrice = [
   {
     "name": "ATF DX III",
     "price": [
-      '1L - 7 azn',
-      '4L - 25 azn',
+      '1L - 8 azn',
+      '4L - 28 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkSBFR.png',
@@ -999,7 +1047,7 @@ List gazpromPrice = [
   {
     "name": "Reductor CLP-68",
     "price": [
-      '20L - 75 azn',
+      '20L - 90 azn',
     ],
     'type': 'Reduktor yağı',
     'image': 'https://iili.io/GkSx9I.png',
@@ -1011,8 +1059,8 @@ List gazpromPrice = [
   {
     "name": "Reductor CLP-150",
     "price": [
-      '20L - 75 azn',
-      '205L - 750 azn',
+      '20L - 90 azn',
+      '205L - 850 azn',
     ],
     'type': 'Reduktor yağı',
     'image': 'https://iili.io/GkS8DF.png',
@@ -1024,8 +1072,8 @@ List gazpromPrice = [
   {
     "name": "Reductor CLP-220",
     "price": [
-      '20L - 80 azn',
-      '205L - 750 azn',
+      '20L - 95 azn',
+      '205L - 850 azn',
     ],
     'type': 'Reduktor yağı',
     'image': 'https://iili.io/GkS6Kv.png',
@@ -1037,7 +1085,7 @@ List gazpromPrice = [
   {
     "name": "TURBIN Tp-22 C",
     "price": [
-      '205L - 550 azn',
+      '205L - 650 azn',
     ],
     'type': 'Turbin yağı',
     'image': 'https://iili.io/GkSQRI.png',
@@ -1049,7 +1097,7 @@ List gazpromPrice = [
   {
     "name": "Turbine Oil 32",
     "price": [
-      '205L - 550 azn',
+      '205L - 650 azn',
     ],
     'type': 'Turbin yağı',
     'image': 'https://iili.io/GkSQRI.png',
@@ -1061,7 +1109,7 @@ List gazpromPrice = [
   {
     "name": "AdBlue",
     "price": [
-      '20L - 24 azn',
+      '20L - 26 azn',
     ],
     'type': 'Reagent',
     'image': 'https://iili.io/GkU2J2.png',
@@ -1073,10 +1121,10 @@ List gazpromPrice = [
   {
     "name": "Antifreeze BS 40",
     "price": [
-      '1kg - 3 azn',
-      '5kg - 13 azn',
-      '10kg - 28 azn',
-      '220kg - 600 azn',
+      '1kg - 3.2 azn',
+      '5kg - 14 azn',
+      '10kg - 30 azn',
+      '220kg - 650 azn',
     ],
     'type': 'Soyuducu maye',
     'image': 'https://iili.io/GkUqxe.png',
@@ -1088,8 +1136,8 @@ List gazpromPrice = [
   {
     "name": "Antifreeze SF 12+ premix",
     "price": [
-      '1kg - 3 azn',
-      '5kg - 13 azn',
+      '1kg - 3.2 azn',
+      '5kg - 14 azn',
     ],
     'type': 'Soyuducu maye',
     'image': 'https://iili.io/GkUBWu.png',
@@ -1101,10 +1149,10 @@ List gazpromPrice = [
   {
     "name": "Antifreeze consentrat BS tasol 40",
     "price": [
-      '1kg - 2.5 azn',
-      '5kg - 12 azn',
-      '10kg - 21 azn',
-      '220kg - 850 azn',
+      '1kg - 3 azn',
+      '5kg - 13 azn',
+      '10kg - 23 azn',
+      '220kg - 950 azn',
     ],
     'type': 'Soyuducu maye',
     'image': 'https://iili.io/GkUx0x.png',
@@ -1116,7 +1164,7 @@ List gazpromPrice = [
   {
     "name": "MOTOR YUYAN Promo",
     "price": [
-      '3.5L - 12 azn',
+      '3.5L - 14 azn',
     ],
     'type': 'Motor yuyan',
     'image': 'https://iili.io/GkUe1f.png',
@@ -1128,7 +1176,7 @@ List gazpromPrice = [
   {
     "name": "SUPER DOT-4",
     "price": [
-      '455qr - 1.8 azn',
+      '455qr - 2.2 azn',
     ],
     'type': 'Əyləc mayesi',
     'image': 'https://iili.io/GkUD7V.png',
@@ -1141,7 +1189,7 @@ List gazpromPrice = [
 
 List genergyPrice = [
   {
-    "name": "G-Energy Far East 0W20",
+    "name": "G-Energy\nFar East 0W20",
     "price": [
       '1L - 10 azn',
       '4L - 36 azn',
@@ -1154,7 +1202,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Far East 5W30",
+    "name": "G-Energy\nFar East 5W30",
     "price": [
       '1L - 8 azn',
       '4L - 30 azn',
@@ -1170,10 +1218,10 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Far East 5W20",
+    "name": "G-Energy\nFar East 5W20",
     "price": [
-      '1L - 8 azn',
-      '4L - 32 azn',
+      '1L - 10 azn',
+      '4L - 38 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgR24.png',
@@ -1183,10 +1231,10 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy FE DX 1 5W30",
+    "name": "G-Energy\nFE DX 1 5W30",
     "price": [
-      '1L - 9 azn',
-      '4L - 34 azn',
+      '1L - 11 azn',
+      '4L - 40 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgcT7.png',
@@ -1196,9 +1244,9 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy F Synth 5W30",
+    "name": "G-Energy\nF Synth 5W30",
     "price": [
-      '4L - 44 azn',
+      '4L - 48 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgGEb.png',
@@ -1208,10 +1256,10 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy F Synth EC 5W30",
+    "name": "G-Energy\nF Synth EC 5W30",
     "price": [
-      '1L - 10 azn',
-      '4L - 35 azn',
+      '1L - 11 azn',
+      '4L - 38 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgXYQ.png',
@@ -1221,13 +1269,13 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy F Synth 5W40",
+    "name": "G-Energy\nF Synth 5W40",
     "price": [
-      '1L - 10 azn',
-      '4L - 36 azn',
-      '5L - 45 azn',
-      '50L - 350 azn',
-      '205L - 1450 azn',
+      '1L - 11 azn',
+      '4L - 40 azn',
+      '5L - 50 azn',
+      '50L - 420 azn',
+      '205L - 1750 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgeZF.png',
@@ -1237,12 +1285,12 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Synthetic Super Star 5W30",
+    "name": "G-Energy\nSynthetic Super Star 5W30",
     "price": [
-      '1L - 10 azn',
-      '4L - 37 azn',
-      '50L - 380 azn',
-      '205L - 1550 azn',
+      '1L - 11 azn',
+      '4L - 40 azn',
+      '50L - 420 azn',
+      '205L - 1750 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkgraR.png',
@@ -1252,9 +1300,9 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert L 5W30",
+    "name": "G-Energy\nExpert L 5W30",
     "price": [
-      '1L - 7 azn',
+      '1L - 8 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gkg4vp.png',
@@ -1264,13 +1312,13 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Synthetic Active 5W40",
+    "name": "G-Energy\nSynthetic Active 5W40",
     "price": [
-      '1L - 7 azn',
-      '4L - 27 azn',
-      '5L - 32 azn',
-      '50L - 280 azn',
-      '205L - 1150 azn',
+      '1L - 8 azn',
+      '4L - 30 azn',
+      '5L - 36 azn',
+      '50L - 330 azn',
+      '205L - 1350 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4YX9.png',
@@ -1280,11 +1328,11 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert L 5W40",
+    "name": "G-Energy\nExpert L 5W40",
     "price": [
-      '1L - 7 azn',
-      '4L - 25 azn',
-      '5L - 30 azn',
+      '1L - 8 azn',
+      '4L - 29 azn',
+      '5L - 34 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4FON.png',
@@ -1294,13 +1342,13 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Synthetic\nLong Life 10W40",
+    "name": "G-Energy\nSynthetic\nLong Life 10W40",
     "price": [
-      '1L - 8 azn',
-      '4L - 30 azn',
-      '5L - 37 azn',
-      '50L - 300 azn',
-      '205L - 1250 azn',
+      '1L - 9 azn',
+      '4L - 33 azn',
+      '5L - 42 azn',
+      '50L - 350 azn',
+      '205L - 1350 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4M5Q.png',
@@ -1310,13 +1358,13 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert L 10W40",
+    "name": "G-Energy\nExpert L 10W40",
     "price": [
-      '1L - 6 azn',
-      '4L - 22 azn',
-      '5L - 27 azn',
-      '50L - 230 azn',
-      '205L - 930 azn',
+      '1L - 7 azn',
+      '4L - 25 azn',
+      '5L - 30 azn',
+      '50L - 260 azn',
+      '205L - 980 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4wLF.png',
@@ -1326,12 +1374,12 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert G 10W40",
+    "name": "G-Energy\nExpert G 10W40",
     "price": [
-      '1L - 5.5 azn',
-      '4L - 20 azn',
-      '5L - 25 azn',
-      '205L - 850 azn',
+      '1L - 6 azn',
+      '4L - 22 azn',
+      '5L - 28 azn',
+      '205L - 950 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4e1a.png',
@@ -1341,12 +1389,12 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert G 15W40",
+    "name": "G-Energy\nExpert G 15W40",
     "price": [
-      '1L - 5 azn',
-      '4L - 18 azn',
-      '5L - 22 azn',
-      '205L - 800 azn',
+      '1L - 6 azn',
+      '4L - 20 azn',
+      '5L - 24 azn',
+      '205L - 850 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4PLX.png',
@@ -1356,11 +1404,11 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert G 20W50",
+    "name": "G-Energy\nExpert G 20W50",
     "price": [
-      '1L - 5 azn',
-      '4L - 18 azn',
-      '5L - 22 azn',
+      '1L - 6 azn',
+      '4L - 20 azn',
+      '5L - 24 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk4D74.png',
@@ -1372,7 +1420,7 @@ List genergyPrice = [
   {
     "name": "G-Profi MSI 10W30",
     "price": [
-      '205L - 1100 azn',
+      '205L - 1200 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk62Eu.png',
@@ -1384,8 +1432,8 @@ List genergyPrice = [
   {
     "name": "G-Profi MSI 10W40",
     "price": [
-      '20L - 115 azn',
-      '205L - 1100 azn',
+      '20L - 125 azn',
+      '205L - 1200 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk6ICF.png',
@@ -1397,8 +1445,8 @@ List genergyPrice = [
   {
     "name": "G-Profi MSI Plus 15W40",
     "price": [
-      '50L - 265 azn',
-      '205L - 1100 azn',
+      '50L - 300 azn',
+      '205L - 1200 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk6Ypp.png',
@@ -1410,7 +1458,7 @@ List genergyPrice = [
   {
     "name": "G-Profi MSH 15W40",
     "price": [
-      '205L - 1050 azn',
+      '205L - 1150 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk6GGn.png',
@@ -1422,8 +1470,8 @@ List genergyPrice = [
   {
     "name": "G-Profi MSF 10W40",
     "price": [
-      '20L - 105 azn',
-      '205L - 960 azn',
+      '20L - 115 azn',
+      '205L - 1050 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk6Nu2.png',
@@ -1435,7 +1483,7 @@ List genergyPrice = [
   {
     "name": "G-Profi MSK 15W40",
     "price": [
-      '20L - 140 azn',
+      '20L - 160 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/Gk6S6u.png',
@@ -1447,7 +1495,7 @@ List genergyPrice = [
   {
     "name": "TO-4 10W",
     "price": [
-      '20L - 110 azn',
+      '20L - 120 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/Gk6raj.png',
@@ -1459,7 +1507,7 @@ List genergyPrice = [
   {
     "name": "TO-4 10W30",
     "price": [
-      '20L - 115 azn',
+      '20L - 125 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkPBFs.png',
@@ -1471,8 +1519,8 @@ List genergyPrice = [
   {
     "name": "G-Profi MSF 15W40",
     "price": [
-      '20L - 105 azn',
-      '205L - 950 azn',
+      '20L - 115 azn',
+      '205L - 1050 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkPx94.png',
@@ -1484,8 +1532,8 @@ List genergyPrice = [
   {
     "name": "G-Profi MSJ 15W40",
     "price": [
-      '30L - 165 azn',
-      '205L - 1450 azn',
+      '30L - 175 azn',
+      '205L - 1600 azn',
     ],
     'type': 'Mühərrik yağı',
     'image': 'https://iili.io/GkPeHv.png',
@@ -1497,7 +1545,7 @@ List genergyPrice = [
   {
     "name": "G-Special\nHydravlic HVLP-46",
     "price": [
-      '205L - 1050 azn',
+      '205L - 1350 azn',
     ],
     'type': 'Hidravlika yağı',
     'image': 'https://iili.io/GkPtb2.png',
@@ -1509,7 +1557,7 @@ List genergyPrice = [
   {
     "name": "G-Box Expert\nGL-4 75W90",
     "price": [
-      '1L - 12 azn',
+      '1L - 13 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkPmW7.png',
@@ -1521,7 +1569,7 @@ List genergyPrice = [
   {
     "name": "G-Box Expert\nGL-5 80W90",
     "price": [
-      '1L - 6 azn',
+      '1L - 7 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gki35x.png',
@@ -1533,8 +1581,8 @@ List genergyPrice = [
   {
     "name": "G-Box ATF Far\nEast Italiya",
     "price": [
-      '1L - 12 azn',
-      '4L - 44 azn',
+      '1L - 13 azn',
+      '4L - 50 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkiBWP.png',
@@ -1546,7 +1594,7 @@ List genergyPrice = [
   {
     "name": "G-Box ATF Far East",
     "price": [
-      '4L - 32 azn',
+      '4L - 38 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/GkiBWP.png',
@@ -1558,9 +1606,9 @@ List genergyPrice = [
   {
     "name": "G-Box Expert\nATF DX III",
     "price": [
-      '1L - 8 azn',
-      '4L - 30 azn',
-      '20L - 135 azn',
+      '1L - 9 azn',
+      '4L - 32 azn',
+      '20L - 150 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gki7zN.png',
@@ -1584,7 +1632,7 @@ List genergyPrice = [
   {
     "name": "G-Box ATF DX VI",
     "price": [
-      '1L - 11 azn',
+      '1L - 12 azn',
     ],
     'type': 'Sürmət qutusu yağı',
     'image': 'https://iili.io/Gki01n.png',
@@ -1594,9 +1642,9 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Expert DOT-4",
+    "name": "G-Energy\nExpert DOT-4",
     "price": [
-      '455qr - 65 azn',
+      '455qr - 70 azn',
     ],
     'type': 'Əyləc mayesi',
     'image': 'https://iili.io/Gkie1e.png',
@@ -1606,12 +1654,12 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy Antifreeze 40",
+    "name": "G-Energy\nAntifreeze 40",
     "price": [
-      '1kg - 3.3 azn',
-      '5kg - 16 azn',
-      '10kg - 28 azn',
-      '220kg - 600 azn',
+      '1kg - 3.5 azn',
+      '5kg - 17 azn',
+      '10kg - 30 azn',
+      '220kg - 650 azn',
     ],
     'type': 'Soyuducu maye',
     'image': 'https://iili.io/Gkikru.png',
@@ -1623,7 +1671,7 @@ List genergyPrice = [
   {
     "name": "G-Energy\nAntifreeze Consentrant",
     "price": [
-      '220kg - 850 azn',
+      '220kg - 950 azn',
     ],
     'type': 'Soyuducu mayesi',
     'image': 'https://iili.io/Gki4IV.png',

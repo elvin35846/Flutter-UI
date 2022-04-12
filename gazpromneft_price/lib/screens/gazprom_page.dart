@@ -92,74 +92,68 @@ class _GazpromPageState extends State<GazpromPage> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            GestureDetector(
-                              onTap: () {
-                                showDialog(
-                                    context: context,
-                                    builder: (context) {
-                                      return Center(
-                                        child: Material(
-                                          type: MaterialType.transparency,
-                                          child: Container(
-                                            decoration: BoxDecoration(
-                                              borderRadius:
-                                                  BorderRadius.circular(10),
-                                              color: Colors.white,
-                                            ),
-                                            padding: const EdgeInsets.all(15),
-                                            child: priceSearchGazprom[index]
-                                                        ['image'] !=
-                                                    ''
-                                                ? Image.network(
-                                                    priceSearchGazprom[index]
-                                                        ['image'],
-                                                    width: MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .width *
-                                                        0.80)
-                                                : Image(
-                                                    image: const AssetImage(
-                                                        'assets/images/default.jpg'),
-                                                    width:
-                                                        MediaQuery.of(context)
+                            Row(
+                              children: [
+                                GestureDetector(
+                                  onTap: () {
+                                    showDialog(
+                                        context: context,
+                                        builder: (context) {
+                                          return Center(
+                                            child: Material(
+                                              type: MaterialType.transparency,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                  color: Colors.white,
+                                                ),
+                                                padding:
+                                                    const EdgeInsets.all(15),
+                                                child: priceSearchGazprom[index]
+                                                            ['image'] !=
+                                                        ''
+                                                    ? Image.network(
+                                                        priceSearchGazprom[index]
+                                                            ['image'],
+                                                        width: MediaQuery.of(
+                                                                    context)
+                                                                .size
+                                                                .width *
+                                                            0.80)
+                                                    : Image(
+                                                        image: const AssetImage(
+                                                            'assets/images/default.jpg'),
+                                                        width: MediaQuery.of(
+                                                                    context)
                                                                 .size
                                                                 .width *
                                                             0.80),
-                                          ),
-                                        ),
-                                      );
-                                    });
-                              },
-                              child: SizedBox(
-                                child: priceSearchGazprom[index]['image'] != ''
-                                    ? Image.network(
-                                        priceSearchGazprom[index]['image'],
-                                        height:
-                                            MediaQuery.of(context).size.height *
+                                              ),
+                                            ),
+                                          );
+                                        });
+                                  },
+                                  child: SizedBox(
+                                    child: priceSearchGazprom[index]['image'] !=
+                                            ''
+                                        ? Image.network(
+                                            priceSearchGazprom[index]['image'],
+                                            height: MediaQuery.of(context)
+                                                    .size
+                                                    .height *
                                                 0.14)
-                                    : const Image(
-                                        image: AssetImage(
-                                            'assets/images/default.jpg'),
-                                        height: 120,
-                                      ),
-                              ),
-                            ),
-                            const SizedBox(width: 10),
-                            InkWell(
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => DetailScreen(
-                                      data: priceSearchGazprom[index],
-                                    ),
+                                        : const Image(
+                                            image: AssetImage(
+                                                'assets/images/default.jpg'),
+                                            height: 120,
+                                          ),
                                   ),
-                                );
-                              },
-                              child: Expanded(
-                                child: Column(
+                                ),
+                                const SizedBox(width: 10),
+                                Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
@@ -196,7 +190,26 @@ class _GazpromPageState extends State<GazpromPage> {
                                     ),
                                   ],
                                 ),
-                              ),
+                              ],
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(right: 10),
+                              child: InkWell(
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => DetailScreen(
+                                          data: priceSearchGazprom[index],
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                  child: const Icon(
+                                    Icons.info_outline,
+                                    size: 32,
+                                    color: Colors.amber,
+                                  )),
                             ),
                           ],
                         ),

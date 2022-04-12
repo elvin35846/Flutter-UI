@@ -879,4 +879,44 @@ List barcodeData = [
     'name': 'PS Fluid 1L',
     'code': 220,
   },
+  {
+    'name': 'Far East 5w30 5L',
+    'code': 221,
+  },
+  {
+    'name': 'GL-5 80/90 1L',
+    'code': 222,
+  },
+  {
+    'name': 'Moto 50 5L',
+    'code': 223,
+  },
+  {
+    'name': 'Far East 0w20 1L',
+    'code': 224,
+  },
+  {
+    'name': 'F Synth 5w40',
+    'code': 225,
+  },
+  {
+    'name': 'HD-60 30L',
+    'code': 226,
+  },
+  {
+    'name': 'Turbo Universal 20w50 205L',
+    'code': 227,
+  },
+  {
+    'name': 'Flushing Oil 4L',
+    'code': 228,
+  },
+  {
+    'name': 'Expert L 10w40 1L',
+    'code': 229,
+  },
+  {
+    'name': 'Super Star 5w30 5L',
+    'code': 230,
+  },
 ];

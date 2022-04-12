@@ -13,7 +13,11 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        title: Text(data['name']),
+        title: Text(
+          data['name'],
+          textAlign: TextAlign.center,
+          style: const TextStyle(fontSize: 14),
+        ),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -21,30 +25,61 @@ class DetailScreen extends StatelessWidget {
           width: double.infinity,
           padding: const EdgeInsets.all(20),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                data['type'],
-                style: const TextStyle(fontSize: 22, color: Colors.grey),
+              Center(
+                child: Text(
+                  data['type'],
+                  style: const TextStyle(fontSize: 20, color: Colors.grey),
+                ),
               ),
               const SizedBox(height: 10),
-              SizedBox(
-                child: data['image'] != ''
-                    ? Image.network(
-                        data['image'],
-                        height: 300,
-                      )
-                    : const Image(
-                        image: AssetImage('assets/images/default.jpg'),
-                        height: 250,
-                      ),
+              Center(
+                child: SizedBox(
+                  child: data['image'] != ''
+                      ? Image.network(
+                          data['image'],
+                          height: 250,
+                        )
+                      : const Image(
+                          image: AssetImage('assets/images/default.jpg'),
+                          height: 220,
+                        ),
+                ),
+              ),
+              const SizedBox(height: 20),
+              Center(
+                child: Text(
+                  data['characteristic'],
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
+                ),
               ),
               const SizedBox(height: 20),
               Text(
-                data['specifications'],
-                textAlign: TextAlign.center,
-                style:
-                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                data['description'],
+                style: const TextStyle(fontSize: 14),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                'Применение',
+                style: TextStyle(fontSize: 16, color: Colors.blue),
+              ),
+              const SizedBox(height: 5),
+              Text(
+                data['use'],
+                textAlign: TextAlign.left,
+                style: const TextStyle(fontSize: 14),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                'Стандартный анализ',
+                style: TextStyle(fontSize: 16, color: Colors.blue),
+              ),
+              const SizedBox(height: 5),
+              Text(
+                data['test'],
+                style: const TextStyle(fontSize: 14),
               ),
             ],
           ),

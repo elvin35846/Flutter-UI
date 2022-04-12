@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         elevation: 0,
         title: const Text(
-          '07.08.2022 Qiymet cedveli',
+          '04.04.2022 Qiymet cedveli',
           style: TextStyle(fontSize: 16),
         ),
         actions: [
