@@ -12,10 +12,10 @@ class RegisterDeviceModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['key'] = this.key;
-    data['key_type'] = this.keyType;
-    data['fin_number'] = this.finNumber;
+    final data = <String, dynamic>{};
+    data['key'] = key;
+    data['key_type'] = keyType;
+    data['fin_number'] = finNumber;
     return data;
   }
 }

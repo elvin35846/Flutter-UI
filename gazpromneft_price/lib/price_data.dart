@@ -1189,7 +1189,7 @@ List gazpromPrice = [
 
 List genergyPrice = [
   {
-    "name": "G-Energy\nFar East 0W20",
+    "name": "G-Energy Far East 0W20",
     "price": [
       '1L - 10 azn',
       '4L - 36 azn',
@@ -1202,7 +1202,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nFar East 5W30",
+    "name": "G-Energy Far East 5W30",
     "price": [
       '1L - 8 azn',
       '4L - 30 azn',
@@ -1218,7 +1218,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nFar East 5W20",
+    "name": "G-Energy Far East 5W20",
     "price": [
       '1L - 10 azn',
       '4L - 38 azn',
@@ -1231,7 +1231,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nFE DX 1 5W30",
+    "name": "G-Energy FE DX 1 5W30",
     "price": [
       '1L - 11 azn',
       '4L - 40 azn',
@@ -1244,7 +1244,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nF Synth 5W30",
+    "name": "G-Energy F Synth 5W30",
     "price": [
       '4L - 48 azn',
     ],
@@ -1256,7 +1256,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nF Synth EC 5W30",
+    "name": "G-Energy F Synth EC 5W30",
     "price": [
       '1L - 11 azn',
       '4L - 38 azn',
@@ -1269,7 +1269,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nF Synth 5W40",
+    "name": "G-Energy F Synth 5W40",
     "price": [
       '1L - 11 azn',
       '4L - 40 azn',
@@ -1285,7 +1285,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nSynthetic Super Star 5W30",
+    "name": "G-Energy Synthetic Super Star 5W30",
     "price": [
       '1L - 11 azn',
       '4L - 40 azn',
@@ -1300,7 +1300,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert L 5W30",
+    "name": "G-Energy Expert L 5W30",
     "price": [
       '1L - 8 azn',
     ],
@@ -1312,7 +1312,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nSynthetic Active 5W40",
+    "name": "G-Energy Synthetic Active 5W40",
     "price": [
       '1L - 8 azn',
       '4L - 30 azn',
@@ -1328,7 +1328,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert L 5W40",
+    "name": "G-Energy Expert L 5W40",
     "price": [
       '1L - 8 azn',
       '4L - 29 azn',
@@ -1342,7 +1342,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nSynthetic\nLong Life 10W40",
+    "name": "G-Energy Synthetic\nLong Life 10W40",
     "price": [
       '1L - 9 azn',
       '4L - 33 azn',
@@ -1358,7 +1358,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert L 10W40",
+    "name": "G-Energy Expert L 10W40",
     "price": [
       '1L - 7 azn',
       '4L - 25 azn',
@@ -1374,7 +1374,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert G 10W40",
+    "name": "G-Energy Expert G 10W40",
     "price": [
       '1L - 6 azn',
       '4L - 22 azn',
@@ -1389,7 +1389,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert G 15W40",
+    "name": "G-Energy Expert G 15W40",
     "price": [
       '1L - 6 azn',
       '4L - 20 azn',
@@ -1404,7 +1404,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert G 20W50",
+    "name": "G-Energy Expert G 20W50",
     "price": [
       '1L - 6 azn',
       '4L - 20 azn',
@@ -1543,7 +1543,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Special\nHydravlic HVLP-46",
+    "name": "G-Special Hydravlic HVLP-46",
     "price": [
       '205L - 1350 azn',
     ],
@@ -1567,7 +1567,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Box Expert\nGL-5 80W90",
+    "name": "G-Box Expert GL-5 80W90",
     "price": [
       '1L - 7 azn',
     ],
@@ -1579,7 +1579,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Box ATF Far\nEast Italiya",
+    "name": "G-Box ATF Far East Italiya",
     "price": [
       '1L - 13 azn',
       '4L - 50 azn',
@@ -1604,7 +1604,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Box Expert\nATF DX III",
+    "name": "G-Box Expert ATF DX III",
     "price": [
       '1L - 9 azn',
       '4L - 32 azn',
@@ -1642,7 +1642,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nExpert DOT-4",
+    "name": "G-Energy Expert DOT-4",
     "price": [
       '455qr - 70 azn',
     ],
@@ -1654,7 +1654,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nAntifreeze 40",
+    "name": "G-Energy Antifreeze 40",
     "price": [
       '1kg - 3.5 azn',
       '5kg - 17 azn',
@@ -1669,7 +1669,7 @@ List genergyPrice = [
     'test': '',
   },
   {
-    "name": "G-Energy\nAntifreeze Consentrant",
+    "name": "G-Energy Antifreeze Consentrant",
     "price": [
       '220kg - 950 azn',
     ],

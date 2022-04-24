@@ -83,134 +83,107 @@ class _KroonPageState extends State<KroonPage> {
               child: ListView.builder(
                   itemCount: priceSearchKroon.length,
                   itemBuilder: (context, index) {
-                    return Container(
-                      decoration: const BoxDecoration(
-                        border: Border(
-                          bottom: BorderSide(width: 1, color: Colors.grey),
-                        ),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Row(
-                              children: [
-                                GestureDetector(
-                                  onTap: () {
-                                    showDialog(
-                                        context: context,
-                                        builder: (context) {
-                                          return Center(
-                                            child: Material(
-                                              type: MaterialType.transparency,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  borderRadius:
-                                                      BorderRadius.circular(10),
-                                                  color: Colors.white,
-                                                ),
-                                                padding:
-                                                    const EdgeInsets.all(15),
-                                                child: priceSearchKroon[index]
-                                                            ['image'] !=
-                                                        ''
-                                                    ? Image.network(
-                                                        priceSearchKroon[index]
-                                                            ['image'],
-                                                        width: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
-                                                            0.80)
-                                                    : Image(
-                                                        image: const AssetImage(
-                                                            'assets/images/default.jpg'),
-                                                        width: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
-                                                            0.80),
-                                              ),
-                                            ),
-                                          );
-                                        });
-                                  },
-                                  child: SizedBox(
-                                    child: priceSearchKroon[index]['image'] !=
-                                            ''
-                                        ? Image.network(
-                                            priceSearchKroon[index]['image'],
-                                            height: MediaQuery.of(context)
-                                                    .size
-                                                    .height *
-                                                0.14)
-                                        : const Image(
-                                            image: AssetImage(
-                                                'assets/images/default.jpg'),
-                                            height: 120,
-                                          ),
-                                  ),
-                                ),
-                                const SizedBox(width: 10),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      priceSearchKroon[index]['name'],
-                                      style: const TextStyle(
-                                          fontSize: 15,
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.black54),
-                                    ),
-                                    const SizedBox(height: 5),
-                                    Text(
-                                      priceSearchKroon[index]['type'],
-                                      style: const TextStyle(
-                                          fontSize: 12, color: Colors.grey),
-                                    ),
-                                    const SizedBox(height: 5),
-                                    Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        for (var item in priceSearchKroon[index]
-                                            ['price'])
-                                          Padding(
-                                            padding: const EdgeInsets.all(2.0),
-                                            child: Text(
-                                              item,
-                                              style: const TextStyle(
-                                                  color: Colors.blue,
-                                                  fontSize: 14),
-                                            ),
-                                          ),
-                                      ],
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 10),
-                              child: InkWell(
-                                  onTap: () {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => DetailScreen(
-                                          data: priceSearchKroon[index],
+                    return Card(
+                      child: ListTile(
+                        leading: GestureDetector(
+                          onTap: () {
+                            showDialog(
+                                context: context,
+                                builder: (context) {
+                                  return Center(
+                                    child: Material(
+                                      type: MaterialType.transparency,
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          color: Colors.white,
                                         ),
+                                        padding: const EdgeInsets.all(15),
+                                        child: priceSearchKroon[index]
+                                                    ['image'] !=
+                                                ''
+                                            ? Image.network(
+                                                priceSearchKroon[index]
+                                                    ['image'],
+                                                width:
+                                                    MediaQuery.of(context)
+                                                            .size
+                                                            .width *
+                                                        0.80)
+                                            : Image(
+                                                image: const AssetImage(
+                                                    'assets/images/default.jpg'),
+                                                width: MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.80),
                                       ),
-                                    );
-                                  },
-                                  child: const Icon(
-                                    Icons.info_outline,
-                                    size: 32,
-                                    color: Colors.amber,
-                                  )),
+                                    ),
+                                  );
+                                });
+                          },
+                          child: SizedBox(
+                            width: 65,
+                            child: priceSearchKroon[index]['image'] != ''
+                                ? Image.network(
+                                    priceSearchKroon[index]['image'])
+                                : const Image(
+                                    image: AssetImage(
+                                        'assets/images/default.jpg')),
+                          ),
+                        ),
+                        title: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              priceSearchKroon[index]['name'],
+                              style: const TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black54),
+                            ),
+                            const SizedBox(height: 5),
+                            Text(
+                              priceSearchKroon[index]['type'],
+                              style: const TextStyle(
+                                  fontSize: 12, color: Colors.grey),
                             ),
                           ],
+                        ),
+                        subtitle: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            for (var item in priceSearchKroon[index]['price'])
+                              Padding(
+                                padding: const EdgeInsets.all(2.0),
+                                child: Text(
+                                  item,
+                                  style: const TextStyle(
+                                      color: Colors.blue, fontSize: 14),
+                                ),
+                              ),
+                          ],
+                        ),
+                        trailing: Padding(
+                          padding: const EdgeInsets.only(right: 10),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailScreen(
+                                    data: priceSearchKroon[index],
+                                  ),
+                                ),
+                              );
+                            },
+                            child: const Icon(
+                              Icons.info_outline,
+                              size: 32,
+                              color: Colors.amber,
+                            ),
+                          ),
                         ),
                       ),
                     );

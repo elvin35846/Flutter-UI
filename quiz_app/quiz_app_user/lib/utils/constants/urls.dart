@@ -3,6 +3,8 @@ class Urls {
   //auth
   static String LOGIN_URL = 'api/v1/auth/token/';
   static String CHANGE_PASSWORD_URL = 'api/v1/auth/password/change/';
+
+  // register device
   static String REGISTER_DEVICE_URL = 'api/v1/auth/register_device/';
 
   //student
