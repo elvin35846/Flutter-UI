@@ -36,7 +36,7 @@ class _UserLoginState extends State<UserLogin> {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.white,
-        body: Container(
+        body: SizedBox(
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

@@ -21,6 +21,26 @@ class _QuizScreenState extends State<QuizScreen> {
       'answer': ['A', 'B', 'C'],
       'trueAnswer': 'C',
     },
+    {
+      'img': 'https://english-lang.ru/wp-content/uploads/2021/03/19333428.jpg',
+      'answer': ['A', 'B', 'C'],
+      'trueAnswer': 'C',
+    },
+    {
+      'img': 'https://english-lang.ru/wp-content/uploads/2021/03/19333428.jpg',
+      'answer': ['A', 'B', 'C'],
+      'trueAnswer': 'C',
+    },
+    {
+      'img': 'https://english-lang.ru/wp-content/uploads/2021/03/19333428.jpg',
+      'answer': ['A', 'B', 'C'],
+      'trueAnswer': 'C',
+    },
+    {
+      'img': 'https://english-lang.ru/wp-content/uploads/2021/03/19333428.jpg',
+      'answer': ['A', 'B', 'C'],
+      'trueAnswer': 'C',
+    },
   ];
 
   @override
@@ -50,8 +70,8 @@ class _QuizScreenState extends State<QuizScreen> {
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Row(
-                    children: const [
-                      Icon(
+                    children: [
+                      const Icon(
                         Icons.thumb_up,
                         size: 20,
                         color: Colors.green,
@@ -59,14 +79,14 @@ class _QuizScreenState extends State<QuizScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 5),
                         child: Text(
-                          '15',
-                          style: TextStyle(
+                          '0',
+                          style: const TextStyle(
                             fontSize: 18,
                             color: Colors.green,
                           ),
                         ),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.thumb_down,
                         size: 20,
                         color: Colors.red,
@@ -74,8 +94,8 @@ class _QuizScreenState extends State<QuizScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 5),
                         child: Text(
-                          '5',
-                          style: TextStyle(
+                          '0',
+                          style: const TextStyle(
                             fontSize: 18,
                             color: Colors.red,
                           ),
@@ -177,6 +197,7 @@ class AnsverOutlineButton extends StatefulWidget {
 
 class _AnsverOutlineButtonState extends State<AnsverOutlineButton> {
   bool _answerStatus = false;
+  bool _buttonState = true;
   @override
   Widget build(BuildContext context) {
     return OutlinedButton(
@@ -184,10 +205,12 @@ class _AnsverOutlineButtonState extends State<AnsverOutlineButton> {
         if (widget.data == widget.trueAswer) {
           setState(() {
             _answerStatus = true;
+            _buttonState = false;
           });
         } else {
           setState(() {
             _answerStatus = false;
+            _buttonState = false;
           });
         }
       },
@@ -199,7 +222,11 @@ class _AnsverOutlineButtonState extends State<AnsverOutlineButton> {
         ),
       ),
       style: OutlinedButton.styleFrom(
-        backgroundColor: _answerStatus != true ? Colors.white : Colors.green,
+        backgroundColor: _buttonState == true
+            ? Colors.white
+            : _answerStatus == true
+                ? Colors.green
+                : Colors.red,
       ),
     );
   }
