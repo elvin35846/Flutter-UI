@@ -28,15 +28,15 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Quiz_app_user',
       home: _isLogin == false ? const UserLogin() : const QuizScreen(),
-      //home: QuizScreen(),
     );
   }
 
   controlUserLogin() async {
     final prefs = await SharedPreferences.getInstance();
-
-    print('isRemember' + prefs.getBool('isRemember').toString());
-    if (prefs.getBool('isRemember') == true) {
+    final bool? deviceId = prefs.getBool("isRemember");
+    print('deviceId ' + deviceId.toString());
+    print('isRemember ' + await prefs.getBool('isRemember').toString());
+    if (deviceId == true) {
       setState(() {
         _isLogin = true;
       });

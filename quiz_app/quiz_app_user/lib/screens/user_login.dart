@@ -117,7 +117,7 @@ class _UserLoginState extends State<UserLogin> {
       key: deviceId,
       keyType: deviceType,
     );
-    var response = await WebService.signIn(registerDeviceModel, true);
+    var response = await WebService.signIn(registerDeviceModel);
     if (response == true) {
       setState(() {
         _isLoading = false;

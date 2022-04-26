@@ -6,9 +6,7 @@ import 'package:quiz_app_user/utils/constants/urls.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class WebService {
-  static signIn(
-      RegisterDeviceModel registerDeviceModel, bool isRemember) async {
-    print('ishe dushdu isRemember-' + isRemember.toString());
+  static signIn(RegisterDeviceModel registerDeviceModel) async {
     final prefs = await SharedPreferences.getInstance();
     final response = await http.post(
       Uri.https(Urls.BASE_URL, Urls.REGISTER_DEVICE_URL),
@@ -17,12 +15,8 @@ class WebService {
       },
       body: json.encode(registerDeviceModel),
     );
-    debugPrint('Response data: ' + response.body);
     if (response.statusCode == 200) {
-      debugPrint('Response data: ' + response.body);
-      // await prefs.setString('Authorization',
-      //     '${json.decode(response.body.toString())['access']}');
-      await prefs.setBool('isRememder', isRemember);
+      await prefs.setBool('isRemember', true);
       return true;
     } else {
       debugPrint(json.decode(response.body.toString())['detail']);
@@ -30,3 +24,4 @@ class WebService {
     }
   }
 }
+//niye evvele qayitdi?
